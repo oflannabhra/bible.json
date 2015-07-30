@@ -1,2 +1,9 @@
 # bible.json
-A simple JSON file describing each book of the Bible, it's chapters and verses
+A simple JSON file describing each book, chapter and verse of the Bible
+
+### Basic Structure
+```json
+"bookName" : {
+  "chapterNumber" : "numberOfVersesInChapter"
+}
+```
